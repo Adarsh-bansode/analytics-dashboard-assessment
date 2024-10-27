@@ -4,7 +4,7 @@ export const PieChartCon = ({data}) => {
     const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#FF5D5D'];
 
     return(<>
-        <ResponsiveContainer width="100%" height={400}>
+        <ResponsiveContainer width="100%" height={330}>
       <PieChart>
         <Pie
           data={data}

@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.header-container {
+  width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.header-lables {
+  display: flex;
+}
+
+.outer-lable {
+  margin: 10px;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bar-chart {
+  width: 55%;
+  padding: 10px;
+}
+
+.pie-chart {
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
